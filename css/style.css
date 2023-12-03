@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Dax-Regular';
+    src: url('/assets/Dax\ Regular/Dax Regular.otf') format('truetype');
+  
+}
+
+body {
+    background-color: #fdf5e6;
+    font-family: 'Dax-Regular', sans-serif;
+    color: #654321;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #e09d37;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    color: #6c3483; 
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; 
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e09d37;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-family: 'Dax-Regular', sans-serif;
+    background-color: #d18d31;
+}
+
+button:hover {
+    background-color:#6c3483;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%; 
+    }
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.valid {
+    border: 1px solid #00FF00;
+}
+
+.invalid {
+    border: 1px solid red;
+}
