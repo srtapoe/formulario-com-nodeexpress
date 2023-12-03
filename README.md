@@ -36,10 +36,10 @@
 
 ### Dados validados
 <h1 align="center">
-  <img alt="dadosInvalidos" src="/prints/entrada.jpg" />
+  <img alt="entrada" src="/prints/entrada.jpg" />
 </h1>
 
 ### Dados salvos em um arquivo JSON local
 <h1 align="center">
-  <img alt="dadosValidos" src="/prints/saida.jpg" />
+  <img alt="saida" src="/prints/saida.jpg" />
 </h1>
